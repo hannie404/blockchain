@@ -10,8 +10,9 @@ body{
 
 .container{
     display: grid;
+    margin-bottom: 0% !important;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr 50px;
+    grid-template-rows: auto 1fr 375px;
     height: 100vh;
     grid-template-areas: 
         'header header '
@@ -104,6 +105,7 @@ header{
 
 main{
     grid-area: main;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -118,14 +120,20 @@ main .article{
 }
 
 footer{
-    background-color: #29FCEF;
+    background-color: #00041E;
+    color: #29FCEF;
+    height: 375px !important;
+    /* margin-bottom: -10% !important; */
+    border-top: 2px solid #29FCEF;
     grid-area: footer;
-    padding: 10px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 
+        'footer-1 footer-2'
+        'ctto ctto';
 }
 
 img{
@@ -207,6 +215,31 @@ img{
     margin: 0px 60px 0px 60px;
 }
 
+.f-texts{
+    font-size: 18px;
+    width: 600px;
+}
+
+.f2-texts{
+    font-size: 18px;
+    width: 500px;
+    color: #fff;
+}
+
+.f-btn{
+    background-color: #29FCEF !important;
+    color: #00041E !important;
+    position: relative;
+    left: -15px;
+}
+
+input > [type=text]{
+    background-color: #03082b !important;
+}
+
+.medias{
+    width: 200px;
+}
 
 @media screen and (max-width: 1100px){
     .container{
@@ -218,6 +251,11 @@ img{
             'header header '
             'main main '
             'footer footer';
+    }
+
+    footer{
+        position: relative;
+        top: 20px;
     }
 
     .nav > .nav-btn {
