@@ -1,10 +1,12 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
     margin: 0%;
     background-color: #00041E !important;
+    overflow-x: hidden!important ;
 }
 
 .container{
@@ -200,6 +202,14 @@ img{
     z-index: -1;
 }
 
+.blur-2{
+    width: 1600px;
+    position: absolute;
+    left: 700px;
+    top: 1000px;
+    z-index: -1;
+}
+
 .feature{
     background-color: #29fcee26;
     width: 100% !important;
@@ -256,6 +266,59 @@ img{
 
 .f-ctto{
     margin-top: 30px;
+}
+
+.reasons-text{
+    justify-content: space-between;
+    margin: 100px 200px 0px 200px;
+}
+
+.why-1{
+    color: #29FCEF;
+    font-weight: bolder;
+    width: 50%;
+
+}
+
+.why-2{
+    color: #29FCEF;
+    width: 50%;
+    text-align: end;
+}
+
+.card-p{
+    text-align: center;
+    margin: 20px 50px 0px 50px;
+}
+
+.card-icon{
+    width: 100px;;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ffee2a;
+    border: 2px solid #29FCEF;
+    border-radius: 15px;
+    color: #29FCEF;
+    margin: 20px;
+}
+
+.reasons-cards{
+    margin: 10px 150px 20px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reasons{
+    width: 100%;
 }
 
 @media screen and (max-width: 1100px){
@@ -419,6 +482,12 @@ img{
         top: -50px;
     }
 
+    /* .blur-2{
+        position: absolute;
+        left: 1000px;
+        top: -50px;
+    } */
+
     .feature{
         top: 20px;
         flex-wrap: wrap;
@@ -430,5 +499,34 @@ img{
     .companies{        
         margin: 3px 15px 3px 15px;
         width: 100px;        
+    }
+
+    .reasons-text{
+        flex-direction: column !important;
+        margin: 10% 20% 0% 20% !important;
+    }
+
+    .why-1, .why-2{
+        width: 100% !important;
+    }
+
+    .why-2{
+        text-align: start !important;
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 400vw;
+        min-width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #00ffee2a;
+        border: 2px solid #29FCEF;
+        border-radius: 15px;
+        color: #29FCEF;
+        margin: 20px;
     }
 }
