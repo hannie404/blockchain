@@ -269,6 +269,7 @@ img{
 }
 
 .reasons-text{
+    display: flex;
     justify-content: space-between;
     margin: 100px 200px 0px 200px;
 }
@@ -276,6 +277,7 @@ img{
 .why-1{
     color: #29FCEF;
     font-weight: bolder;
+    font-size: 30px;
     width: 50%;
 
 }
@@ -319,6 +321,134 @@ img{
 
 .reasons{
     width: 100%;
+}
+
+.card-btn-start{
+    background-color: #29FCEF;
+    margin: 10px;
+    width: 200px;
+}
+
+.card-btn-start::placeholder{
+    color: #03082b !important;
+}
+
+.card-btn-learn{
+    background-color: #00ffee2a;
+    border: 2px solid #29FCEF;
+    margin: 10px;
+    width: 200px;
+}
+
+.card-btn-learn::placeholder{
+    color: #29FCEF;
+}
+
+.hows{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 200px 0px 200px;
+}
+
+.hows-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+}
+
+.how-title{
+    color: #0d6efd;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.how-p{
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    margin-top: -10px !important;
+}
+
+.how-img, .how-card{
+    width: 350px;
+}
+
+.hows-cards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.how-card{
+    margin: 20px;
+}
+
+.how-text{
+    color: #0d6efd;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.how-p-2{
+    color: #fff;
+    text-align: center;
+}
+
+.c-title{
+    color: #29FCEF;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+hr{
+    color: #29FCEF;
+    font-weight: 500;
+}
+
+.c-img{
+    width: 70px;
+}
+
+.c-name{
+    color: #29FCEF;
+    font-weight: bold;
+}
+
+.c{
+    color: #fff;
+    margin-top: -2px;
+}
+
+.c-texts{
+    margin-left: 10px;
+}
+
+.c-cards{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ffee2a;
+    border: 2px solid #29FCEF;
+    border-radius: 15px;
+    color: #29FCEF;
+    margin: 20px;
+}
+
+.c-div{
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 1100px){
@@ -528,5 +658,23 @@ img{
         border-radius: 15px;
         color: #29FCEF;
         margin: 20px;
+    }
+
+    .card-btn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-btn-learn, .card-btn-start{
+        width: 150px !important;
+        margin: 5px;
+    }
+
+    .how-title{
+        font-size: 30px !important;
+    }
+
+    .how-p{
+        width: 350px !important;
     }
 }
