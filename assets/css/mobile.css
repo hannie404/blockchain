@@ -276,7 +276,7 @@
 
     .invest-text h1{
         min-width: 50px;
-        align-self: center;
+        text-align: center;
     }
 
     .invest-btn, .invest-btn-learn{
