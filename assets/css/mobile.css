@@ -32,7 +32,10 @@ body{
             'ctto';
     }
 
-
+    .article.text{
+        width: 100% !important;
+        padding: 20px !important;
+    }
 
     .footer-2{
         width: 100%;
