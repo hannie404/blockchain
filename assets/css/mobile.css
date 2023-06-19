@@ -15,12 +15,14 @@ body{
     }
 
     .footer{
+        width: 100%;
+        padding: 20px !important;
         position: relative;
         top: 20px;
         bottom: -10vh;
         display: grid;
         grid-auto-flow: auto;
-        grid-template-columns: 50vw !important;
+        grid-template-columns: auto !important;
         grid-template-rows: 1fr auto;
         height: fit-content !important;
         justify-content: center !important;
@@ -29,6 +31,8 @@ body{
             'footer-2'
             'ctto';
     }
+
+
 
     .footer-2{
         width: 100%;
@@ -291,12 +295,15 @@ body{
     }
 
     .invest-text h1{
-        min-width: 50px;
+        min-width: 20px !important;
         text-align: center;
     }
 
     .invest-btn, .invest-btn-learn{
         margin: 5px;
+        width: 100px;
+        height: fit-content;
+        font-size: 15px;
     }
 
     .invest-button{
