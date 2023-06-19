@@ -71,7 +71,8 @@
         border: 3px solid #0d6efd;
         border-radius: 3px;
         color: #0d6efd;
-        padding: 8px;
+        padding: 1px 8px 1px 8px;
+        /* height: 35px; */
     }
 
     .nav > .nav-links {
@@ -118,6 +119,17 @@
         overflow-y: auto;
     }
 
+    .get-started{
+        width: 100px;
+        height: fit-content;
+        font-size: 12px;
+    }
+
+    .logo{
+        width: 150px !important;
+        margin-left: 10px !important;
+    }
+
     .phone{
         margin-left: 40px;
         width: 400px;
@@ -158,12 +170,6 @@
         left: -1000px;
         top: -50px;
     }
-
-    /* .blur-2{
-        position: absolute;
-        left: 1000px;
-        top: -50px;
-    } */
 
     .feature{
         top: 20px;
@@ -268,6 +274,12 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .invest-text{
+        margin: 0% !important;
+        display: flex;
+        justify-content: center !important;
     }
 
     .invest-text > p{
