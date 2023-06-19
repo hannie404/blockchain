@@ -1,7 +1,3 @@
-body{
-    overflow-x: hidden;
-}
-
 @media screen and (max-width: 1100px){
     .container{
         display: grid;
@@ -197,7 +193,7 @@ body{
 
     .reasons-text{
         flex-direction: column !important;
-        margin: 10% 20% 0% 20% !important;
+        margin: 10% 10% 0% 10% !important;
     }
 
     .why-1, .why-2{
@@ -299,7 +295,7 @@ body{
 
     .invest-text h1{
         min-width: 20px !important;
-        text-align: center;
+        text-align: center !important;
     }
 
     .invest-btn, .invest-btn-learn{
@@ -312,6 +308,16 @@ body{
     .invest-button{
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .news-card{
+        margin: 20px 10px;
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .news-1{
         flex-wrap: wrap;
     }
 }
