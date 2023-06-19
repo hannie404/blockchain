@@ -138,7 +138,6 @@ main .article{
     padding: 50px;
     width: 100%;
     position: relative;
-    bottom: -300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
