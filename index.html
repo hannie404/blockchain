@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
 </head>
 <body>
     <div class="container-fluid m-0 p-0">
@@ -38,7 +39,7 @@
                         <li><a href="#" target="_blank" class="ms-2 me-2">Contact</a></li>
                     </ul>
                 </div>
-                <input type="btn" class="btn btn-primary me-5 get-started" placeholder="Get started">
+                <input type="button" class="btn btn-primary me-5 get-started" value="Get started">
             </div>
         </header>
 
@@ -46,6 +47,7 @@
             <!-- blur -->
             <img src="./assets/public/blur1@2x.png" alt="design" class="blur">
             <img src="./assets/public/blur1@2x.png" alt="design" class="blur-2">
+            <img src="./assets/public/blur1@2x.png" alt="design" class="blur-3">
 
             <div class="article left-photo">
                 <img src="./assets/public/iphone-transformed.png" alt="logo" class="phone">
@@ -54,8 +56,8 @@
                 <h3 class="title">The Power of Blockchain: Transforming Industries through NFTs</h3>
                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa quidem impedit fugit. Minima error nostrum ducimus doloribus suscipit blanditiis magnam deleniti quidem, tenetur incidunt molestiae quam neque ad consequatur!</p>
                 <div class="btn-title">
-                    <input type="btn" class="btn btn-primary" placeholder="Get started">
-                    <input type="btn" class="btn ms-2 learn-more" placeholder="Learn more">
+                    <input type="button" class="btn btn-primary" value="Get started">
+                    <input type="button" class="btn ms-2 learn-more" value="Learn more">
                 </div>
             </div>
             <div class="article feature d-flex flex-row align-items-center justify-content-center p-4">
@@ -105,8 +107,8 @@
                         <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi vero soluta obcaecati.</p>
                     </div>
                     <div class="card-btn">
-                        <input type="btn" class="btn card-btn-start" placeholder="Get started">
-                        <input type="btn" class="btn card-btn-learn" placeholder="Learn more">
+                        <input type="button" class="btn card-btn-start" value="Get started">
+                        <input type="button" class="btn card-btn-learn" value="Learn more">
                     </div>
                 </div>
             </div>
@@ -125,31 +127,51 @@
                         <p class="how-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempora maxime natus saepe distinctio assumenda vel incidunt accusamus.</p>
                     </div>
                     <div class="how-card">
-                        <img src="./assets/public/61d3a5098850a6c976891ce4-hometabsimage01defixtemplate-1@2x.png" alt="how-card" class="how-img">
-                        <h3 class="how-text">Create account</h3>
+                        <img src="./assets/public/chart-1@2x.png" alt="how-card" class="how-img">
+                        <h3 class="how-text">Transfer your funds</h3>
                         <p class="how-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempora maxime natus saepe distinctio assumenda vel incidunt accusamus.</p>
                     </div>
                     <div class="how-card">
-                        <img src="./assets/public/61d3a5098850a6c976891ce4-hometabsimage01defixtemplate-1@2x.png" alt="how-card" class="how-img">
-                        <h3 class="how-text">Create account</h3>
+                        <img src="./assets/public/money-1@2x.png" alt="how-card" class="how-img">
+                        <h3 class="how-text">Earn passive interest</h3>
                         <p class="how-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempora maxime natus saepe distinctio assumenda vel incidunt accusamus.</p>
                     </div>
                 </div>
             </div>
 
             <!-- currencies -->
-            <!-- <div class="currency">
+            <div class="currency">
                 <div class="c-title">
                     Natively created with most popular cryptocurrencies
                 </div>
-                <div class="c-cards">
-                    <div class="c-card">
-                        <div class="c-up d-flex flex-row justify-content-center">
-                            <div class="c-div">
-                                <img src="./assets/public/bitcoin1.svg" alt="currency" class="c-img">
-                                <div class="c-texts  d-flex flex-column">
-                                    <h5 class="c-name">Bitcoin</h5>
-                                    <p class="c">cryptocurrency</p>
+                <div class="currencies">
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/eth1.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Ethereum</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="c-description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolore repudiandae alias aspernatur dignissimos nam quos qui sint exercitationem autem.
+                            </p>
+                            <a href="#" class="invest">Invest in Ethereum</a>
+                        </div>
+                    </div>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/bitcoin1.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Bitcoin</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
                                 </div>
                             </div>
                             <hr>
@@ -159,8 +181,101 @@
                             <a href="#" class="invest">Invest in Bitcoin</a>
                         </div>
                     </div>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/ripple.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Ripple</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="c-description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolore repudiandae alias aspernatur dignissimos nam quos qui sint exercitationem autem.
+                            </p>
+                            <a href="#" class="invest">Invest in Ripple</a>
+                        </div>
+                    </div>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/dai.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Dai</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="c-description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolore repudiandae alias aspernatur dignissimos nam quos qui sint exercitationem autem.
+                            </p>
+                            <a href="#" class="invest">Invest in Dai</a>
+                        </div>
+                    </div>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/usdt.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Tether</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="c-description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolore repudiandae alias aspernatur dignissimos nam quos qui sint exercitationem autem.
+                            </p>
+                            <a href="#" class="invest">Invest in Tether</a>
+                        </div>
+                    </div>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-up">
+                                <div class="c-div">
+                                    <img src="./assets/public/litecoin.svg" alt="currency" class="c-img">
+                                    <div class="c-texts  d-flex flex-column">
+                                        <h5 class="c-name">Litecoin</h5>
+                                        <p class="c">cryptocurrency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="c-description">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolore repudiandae alias aspernatur dignissimos nam quos qui sint exercitationem autem.
+                            </p>
+                            <a href="#" class="invest">Invest in Litecoin</a>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+            </div>
+
+            <!-- start investing today -->
+
+            
+            <div class="start-invest">
+                <div class="invest-card">
+                    <div class="invest-phone">
+                        <img src="./assets/public/iphone-transformed.png" alt="phone" id="iphone">
+                    </div>
+                    <div class="invest-text">
+                        <h1>Start investing today</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ducimus quas perferendis perspiciatis possimus expedita eligendi voluptate ea esse veritatis. Dignissimos architecto quidem necessitatibus quo repudiandae! Veritatis voluptatum a eum!</p>
+                        <div class="invest-button">
+                            <input type="button" class="btn invest-btn" value="Get started">
+                            <input type="button" name="btn-learn" value="Learn more" class="btn invest-btn-learn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
 
             <footer class="footer">
                 <div class="footer-1">
@@ -173,7 +288,7 @@
                     <p class="f2-texts mt-2 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit similique consequatur laboriosam assumenda recusandae vero iure consectetur.</p>
                     <div class="f-mail row mb-3 align-items-center">
                         <div class="col-8">
-                            <input type="email" name="email" class="form-control border border-2" placeholder="Email">
+                            <input type="email" name="email" class="form-control border border-2 email" placeholder="Email">
                         </div>
                         <div class="col-2">
                             <button class="btn f-btn">Submit</button>
