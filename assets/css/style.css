@@ -225,8 +225,8 @@ img{
 .blur-2{
     width: 1600px;
     position: absolute;
-    left: 700px;
-    top: 1000px;
+    left: -900px;
+    top: 1500px;
     z-index: -1;
 }
 

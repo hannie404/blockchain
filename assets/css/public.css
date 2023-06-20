@@ -204,7 +204,7 @@ img{
 .blur-2{
     width: 1600px;
     position: absolute;
-    left: 700px;
+    left: -700px;
     top: 1000px;
     z-index: -1;
 }
