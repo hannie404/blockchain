@@ -3,6 +3,16 @@
     height: 100vh;
 }
 
+.main-2{
+    background-image: linear-gradient(to bottom,#29fcee2b,#00041e27);
+    height: 80vh;
+    width: 100%;
+}
+
+.container-main-2{
+    
+}
+
 img.contact-icon{
     width: 100%;
 }
@@ -62,4 +72,22 @@ textarea::before{
 
 .btn-cyan{
     background-color: #29FCEF;
+}
+
+.accordion-button{
+    color: #fff;
+    background-color: #030a36f1 !important;
+}
+
+.accordion-button:focus{
+    color: #fff;
+    background-color: #030a36f1 !important;
+}
+
+button .accordion-button .collapse{
+    color: #fff;
+}
+
+.accordion-item{
+    background-color: #9efcf5;
 }

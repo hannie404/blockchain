@@ -5,12 +5,13 @@
 
     .main-1{
         height: fit-content !important;
-        margin-bottom: -20px !important;
     }
 
     input.form-control{
         min-width: 100% !important;
     }
+
+
 }
 
 @media screen and (max-width: 710px){
@@ -21,5 +22,9 @@
 
     .main-1{
         height: fit-content !important;
+    }
+
+    .accordion{
+        width: 100%;
     }
 }
