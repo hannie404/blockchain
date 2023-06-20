@@ -41,6 +41,10 @@
         min-width: 100%;
     }
 
+    .main-4{
+        height: fit-content !important;
+    }
+
     .invest-card{
         display: flex;
         flex-direction: column;
@@ -108,5 +112,13 @@
 
     .profile, .describe{
         width: 100% !important;
+    }
+
+    .m5a1-h{
+        margin-top: 50px;
+    }
+
+    .m5a1-text{
+        margin: 0% !important;
     }
 }
