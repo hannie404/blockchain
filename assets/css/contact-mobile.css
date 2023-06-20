@@ -1,0 +1,25 @@
+@media screen and (max-width: 1100px){
+    .m1a2, .m1a1{
+        width: 100%;
+    }
+
+    .main-1{
+        height: fit-content !important;
+        margin-bottom: -20px !important;
+    }
+
+    input.form-control{
+        min-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .inputs{
+        min-width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .main-1{
+        height: fit-content !important;
+    }
+}

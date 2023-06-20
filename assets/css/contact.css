@@ -1,0 +1,65 @@
+.main-1{
+    background-image: linear-gradient(to top,#29fcee2b,#00041e27);
+    height: 100vh;
+}
+
+img.contact-icon{
+    width: 100%;
+}
+
+.cyan{
+    color: #29FCEF;
+    background-color: #030a3691;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #29FCEF;
+    border-radius: 10px;
+}
+
+.m1a1 > p{
+    margin-top: 20px;
+}
+
+hr{
+    border: 2px solid #29FCEF;
+}
+
+.form{
+    background-color: #030a3691;
+    border: 2px solid #29FCEF;
+}
+
+input.form-control{
+    background-color: #030a3691;
+    border: 2px solid #29FCEF;
+    height: 50px;
+}
+
+input.form-control::placeholder{
+    color: #00ffee6d;
+}
+
+input.form-control[type=text]:focus{
+    background-color: #030a3691;
+    color: aliceblue;
+}
+
+input.form-control[type=email]:focus{
+    background-color: #030a3691;
+    color: aliceblue;
+}
+
+textarea.form-control{
+    background-color: #030a3691;
+    border: 2px solid #29FCEF;
+    color: #00ffee6d;
+}
+
+textarea::before{
+    background-color: #030a3691;
+    color: aliceblue;
+}
+
+.btn-cyan{
+    background-color: #29FCEF;
+}
