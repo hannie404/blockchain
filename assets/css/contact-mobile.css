@@ -11,7 +11,10 @@
         min-width: 100% !important;
     }
 
-
+    main-2{
+        height: fit-content !important;
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 710px){
