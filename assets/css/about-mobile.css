@@ -96,4 +96,17 @@
         width: 100% !important;
         margin-right: 0% !important;
     }
+
+    .main-5{
+        width: 100% !important;
+        height: fit-content !important;
+    }
+
+    .m5a1{
+        flex-wrap: wrap;
+    }
+
+    .profile, .describe{
+        width: 100% !important;
+    }
 }

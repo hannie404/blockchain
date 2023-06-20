@@ -247,9 +247,49 @@ hr{
     margin-right: 10px;
 }
 
+.invest-btn:hover{
+    background-color: #021635;
+    color: #fff;
+    width: 150px;
+    margin-right: 10px;
+}
+
+
 .invest-btn-learn{
     background-color: #ffffff5f;
     border: 2px solid #fff;
     width: 150px;
     color: #fff;
+}
+
+.invest-btn-learn:hover{
+    background-color: #021635;
+    color: #fff;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.m-color{
+    color: #29FCEF;
+}
+
+i{
+    color: #29FCEF;
+}
+
+.main-5{
+    background-image: linear-gradient(to top,#29fcee2b,#00041e27);
+    height: 100vh;
+}
+
+.profile{
+    background-color: #05061f4c;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.describe{
+    width: 40%;
 }
