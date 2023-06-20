@@ -138,3 +138,118 @@
 .blue{
     color: #0d6efd;
 }
+
+.main-4{
+    background-image: linear-gradient(to top,#03082b,#00041e27);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    border: 2px solid #fff;
+    width: 100%;
+}
+
+.m4a1 > h1{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.m4a2-img{
+    width: 30%;
+}
+
+.m4a2{
+    background-color: #1d263b;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    width: 40%;
+    margin: 20px;
+}
+
+.m4a2-text{
+    color: #fff;
+    width: 100%;
+    margin-left: 20px;
+}
+
+/* start invest */
+
+.start-invest{
+    background-image: linear-gradient(to bottom,#03082b,#00041e27);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.invest-card{
+    background-image: url(/assets/public/container.svg);
+    background-color: #0d6efd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    align-items: center;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px
+}
+
+.invest-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 5%;
+}
+
+.invest-text h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0%;
+}
+
+.invest-text p{
+    color: #fff;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.invest-phone{
+    width: 50%;
+}
+
+#iphone{
+    width: 30vw;
+    margin-left: 50px;
+}
+
+.invest-btn{
+    background-color: #fff;
+    color: #0d6efd;
+}
+
+.invest-btn{
+    background-color: #fff;
+    color: #0d6efd;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.invest-btn-learn{
+    background-color: #ffffff5f;
+    border: 2px solid #fff;
+    width: 150px;
+    color: #fff;
+}

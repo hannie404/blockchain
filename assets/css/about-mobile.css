@@ -33,7 +33,67 @@
     }
     
     .m1a2-img{
-        width: 20% !important;
+        min-width: 90px !important;
         margin-right: 20px;
+    }
+
+    .m4a2{
+        min-width: 100%;
+    }
+
+    .invest-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    #iphone{
+        width: 40vw;
+        min-width: 300px;
+        position: relative;
+        left: -30px !important;
+    }
+
+    .invest-text, .invest-phone{
+        min-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .invest-text{
+        margin: 0% !important;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .invest-text > p{
+        text-align: center;
+    }
+
+    .invest-text h1{
+        min-width: 20px !important;
+        text-align: center !important;
+    }
+
+    .invest-btn, .invest-btn-learn{
+        margin: 5px;
+        width: 100%;
+        height: fit-content;
+        font-size: 15px;
+    }
+
+    .invest-button{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .invest-btn-learn, .invest-btn{
+        width: 100% !important;
+        margin-right: 0% !important;
     }
 }
