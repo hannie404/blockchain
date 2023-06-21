@@ -5,6 +5,7 @@
 
 body{
     margin: 0%;
+    background-image: linear-gradient(to right,#16086f96,#00041e27);
     background-color: #00041E !important;
     overflow-x: hidden!important ;
 }
@@ -202,6 +203,13 @@ img{
 .learn-more:hover{
     background-color: #030836;
     color: #fff !important;
+}
+
+.card-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-btn-start:hover,

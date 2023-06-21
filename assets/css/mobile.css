@@ -139,7 +139,7 @@
 
     .phone{
         margin-left: 40px;
-        width: 400px;
+        width: 300px;
         z-index: -1;
     }
 
@@ -221,12 +221,13 @@
     }
 
     .card-btn{
+        min-width: 100% !important;
         display: flex;
         flex-direction: row;
     }
 
     .card-btn-learn, .card-btn-start{
-        width: 150px !important;
+        min-width: 300px !important;
         margin: 5px;
     }
 
@@ -300,7 +301,7 @@
 
     .invest-btn, .invest-btn-learn{
         margin: 5px;
-        width: 100px;
+        width: 100%;
         height: fit-content;
         font-size: 15px;
     }
@@ -311,6 +312,10 @@
         flex-wrap: wrap;
     }
 
+    .browse-btn{
+        width: 100%;
+    }
+
     .news-card{
         margin: 20px 10px;
         width: 100%;
@@ -319,5 +324,6 @@
 
     .news-1{
         flex-wrap: wrap;
+        margin: 0% !important;
     }
 }

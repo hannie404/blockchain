@@ -9,6 +9,8 @@
 
 .main-2{
     background-image: linear-gradient(to bottom,#29fcee2b,#00041e27);
+    height: 80vh;
+    align-self: center;
 }
 
 .main-1{
