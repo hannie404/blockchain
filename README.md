@@ -4,6 +4,10 @@ This project aims to provide an understanding of the potential of blockchain and
 # Developer
 Front-end Developer : Annie-Neshreen D. Ibrahim
 
+# Blockchain e-magazine
+<img src="./assets/home page.jpg" alt="home page">
+
+Live link : <a href="https://hannie404.github.io/blockchain/">Click me</a>
 <!-- 
     I coded this website the day when the mini project was announced.
     Back then, bootstrap wasn't introduced to us yet.
