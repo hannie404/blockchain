@@ -1,16 +1,18 @@
-.main-1{
+.main1-article1{
     background-image: linear-gradient(to top,#29fcee2b,#00041e27);
     height: 100vh;
 }
 
-.main-2{
-    background-image: linear-gradient(to bottom,#29fcee2b,#00041e27);
-    height: fit-content;
-    width: 100%;
+.container-main-2{
+    margin-top: 0px;
 }
 
-.container-main-2{
-    
+.main-2{
+    background-image: linear-gradient(to bottom,#29fcee2b,#00041e27);
+}
+
+.main-1{
+    width: 100%;
 }
 
 img.contact-icon{

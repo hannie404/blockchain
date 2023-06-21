@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    .main1-article1{
+        height: fit-content !important;
+    }
+
     .main-1{
         height: fit-content !important;
     }
@@ -11,9 +15,18 @@
         min-width: 100% !important;
     }
 
-    main-2{
+    .main-2{
         height: fit-content !important;
         width: 100% !important;
+    }
+
+    .container-main-2{
+        width: 100% !important;
+        margin: 0% !important;
+    }
+    
+    .form{
+        padding: 10px !important;
     }
 }
 
