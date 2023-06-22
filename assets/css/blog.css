@@ -1,0 +1,161 @@
+html{
+    margin: 0% !important;
+}
+
+.main1{
+    background-image: linear-gradient(to top,#29fcee2b,#00041e27);
+    width: 100%;
+    margin: 0%;
+}
+
+.main2{
+    background-image: linear-gradient(to bottom,#29fcee2b,#00041e27);
+}
+
+.main1-c1{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.icode-blog > h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    left-margin: 10px;
+}
+
+.news-images{
+    width: 100%;
+    padding-right: 0%;
+}
+
+.news-img{
+    width: 100%;
+    padding: 0%  !important;
+}
+
+.cyan-blog{
+    color: #29FCEF;
+    text-align: start;
+    margin-left: 5%;
+}
+
+input.form-control::placeholder{
+    color: #29FCEF;
+}
+
+input.form-control{
+    background-color: #030a3691;
+    border: 2px solid #29FCEF;
+    height: 50px;
+}
+
+input.form-control[type=search]:focus{
+    background-color: #030a3691;
+    color: aliceblue;
+}
+
+.btn-search{
+    background-color: #29FCEF;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.btn-search:hover{
+    background-color: #030a3691;
+}
+
+.search{
+    display: flex;
+    justify-content: end;
+}
+
+.search-blog{
+    width: 40%;
+}
+
+.bi-search{
+    color: #031f1d;
+}
+
+.bi-search:hover{
+    color: #fff;
+}
+
+.cyan{
+    color: #29FCEF;
+}
+
+.grey{
+    width:fit-content;
+    background-color: #24314f;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.text-wimg{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-img{
+    width: 50%;
+}
+
+.news-text{
+    margin: 30px;
+}
+
+.news-text p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+
+a.news-a{
+    text-decoration: none;
+    color: #29FCEF;
+    font-size: 18px;
+}
+
+.b-text h3{
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.latest h1{
+    color: #29FCEF;
+    font-weight: bolder;
+}
+
+.posts-img{
+    width: 100%;
+}
+
+.gray{
+    background-color: #24314f;
+    border-radius: 20px;
+}
+
+.posts-text{
+    margin: 30px;
+}
+
+.posts-text p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+
+.posts-text i{
+    color: #29FCEF;
+}
+
+.btn-primary{
+    background-color: #29FCEF;
+    color: #24314f;
+    border: 1px solid #24314f;
+}

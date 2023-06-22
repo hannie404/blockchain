@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About | iCode</title>
+        <title>Blog | iCode</title>
 
         <!-- bootstrap link -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -45,40 +45,42 @@
 
         <main>
             <div class="main1">
-                <div class="main1-c1 row g-3 justify-content-center align-items-center">
-                    <div class="col-6">
-                        iCode Blog
+                <div class="main1-c1 d-flex row g-0 p-5">
+                    <div class="col-6 icode-blog mb-4">
+                        <h1 class="cyan-blog">iCode Blog</h1>
                     </div>
-                    <div class="input-group col-6">
-                        <input type="search" class="form-control" placeholder="search">
-                        <button class="btn btn-secondary"><i class="bi bi-search"></i></button>
+                    <div class="col-6 d-flex flex-row align-items-center mb-4 search">
+                        <input type="search" class="form-control search-blog" placeholder="search" style="border-top-right-radius: 0%; border-bottom-right-radius: 0%;">
+                        <button class="btn btn-search w-auto"><i class="bi bi-search"></i></button></input>
                     </div>
-                    <div class="col-6 p-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 big-img">
+                        <div class="grey m-5 mt-0 me-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
+                            <div class="news-text">
+                                <i class="bi bi-calendar-date cyan"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill "></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 p-2">
-                        <div class="row g-2">
-                            <div class="col-4">
-                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a6329d891d69_blog-post-featured-image-05-defi-x-template-p-500.png" alt="picture" class="news-images">
+                    <div class="col-6 text-white">
+                        <div class="row g-2 ps-3 text-wimg">
+                            <div class="col-6">
+                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a6329d891d69_blog-post-featured-image-05-defi-x-template-p-500.png" alt="picture" class="news-images rounded-4">
                             </div>
-                            <div class="col-8">
+                            <div class="col-6 d-flex align-items-center b-text">
                                 <h3>6 great crypto wallets you should try to keep your crypto assets secure</h3>
                             </div>
-                            <div class="col-4">
-                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a63b18891d67_blog-post-featured-image-04-defi-x-template-p-500.png" alt="picture" class="news-images">
+                            <div class="col-6 mt-3">
+                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a63b18891d67_blog-post-featured-image-04-defi-x-template-p-500.png" alt="picture" class="news-images rounded-4">
                             </div>
-                            <div class="col-8">
+                            <div class="col-6 d-flex align-items-center mt-3 b-text">
                                 <h3>The new iCode crypto debit card is live: Here is how to claim yours now!</h3>
                             </div>
-                            <div class="col-4">
-                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a6b2c5891d60_blog-post-featured-image-01-defi-x-template-p-800.png" alt="picture" class="news-images">
+                            <div class="col-6 mt-3">
+                                <img src="https://assets.website-files.com/61d3a5098850a600d7891c74/61d3a5098850a6b2c5891d60_blog-post-featured-image-01-defi-x-template-p-800.png" alt="picture" class="news-images rounded-4">
                             </div>
-                            <div class="col-8">
+                            <div class="col-6 d-flex align-items-center mt-3 b-text">
                                 <h3>Is crypto secure? What factors to consider if you will start investing in crypto</h3>
                             </div>
                         </div>
@@ -88,65 +90,77 @@
             </div>
 
             <div class="main2">
-                <div class="main2-c2 row g-2 justify-content-center-align-center">
-                    <div class="col-6">
+                <div class="row main2-c2 g-2 p-5 justify-content-center-align-center">
+                    <div class="col-6 latest">
                         <h1>Latest posts</h1>
                     </div>
                     <div class="col-6 d-flex flex-row">
-                        <input type="button" class="btn btn-primary p-2 posts-btn" value="All">
-                        <input type="button" class="btn btn-primary p-2 posts-btn" value="Articles">
-                        <input type="button" class="btn btn-primary p-2 posts-btn" value="Resources">
-                        <input type="button" class="btn btn-primary p-2 posts-btn" value="News">
+                        <input type="button" class="btn btn-primary p-2 m-1 posts-btn" value="All">
+                        <input type="button" class="btn btn-primary p-2 m-1 posts-btn" value="Articles">
+                        <input type="button" class="btn btn-primary p-2 m-1 posts-btn" value="Resources">
+                        <input type="button" class="btn btn-primary p-2 m-1 posts-btn" value="News">
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 m-2">
-                        <img src="./assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="news-img">
-                        <div class="news-text">
-                            <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
-                            <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
-                            <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                    <div class="col-6 p-4">
+                        <div class="gray pb-2">
+                            <img src="../assets/public/61d3a5098850a669fa891d6c-blogpostfeaturedimage06defixtemplate-1@2x.png" alt="news image" class="posts-img">
+                            <div class="posts-text">
+                                <i class="bi bi-calendar-date"> &nbsp;June 13, 2023</i>
+                                <p>What is an NFT (Non-Fungible token) and how can you buy one</p>
+                                <a href="#" class="news-a">Read more <i class="bi bi-caret-right-fill"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 m-2">
+                    <div class="col-12 p-4 d-flex justify-content-center">
                         <input type="button" class="btn btn-primary w-25" value="Next">
                     </div>
                 </div>

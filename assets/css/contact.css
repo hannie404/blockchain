@@ -13,6 +13,10 @@
     align-self: center;
 }
 
+.main1-c1{
+    flex-wrap: wrap;
+}
+
 .main-1{
     width: 100%;
 }
@@ -94,4 +98,12 @@ button .accordion-button .collapse{
 
 .accordion-item{
     background-color: #9efcf5;
+}
+
+.news-images{
+    width: 50% !important;
+}
+
+.text-white{
+    width: 100%;
 }
