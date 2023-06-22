@@ -107,3 +107,7 @@ button .accordion-button .collapse{
 .text-white{
     width: 100%;
 }
+
+hr{
+    z-index: -1;
+}
