@@ -369,4 +369,8 @@
         margin-top: 50px !important;
         padding: 0% !important;
     }
+
+    .card-btn{
+        min-width: 100% !important;
+    }
 }
