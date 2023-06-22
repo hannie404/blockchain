@@ -11,7 +11,7 @@
         padding: 20px;
     }
 
-    .main1-c1{
+    .main1-c1, main2-c2{
         display: grid;
         grid-template-columns: auto;
         grid-auto-flow: row;
@@ -31,6 +31,22 @@
     .search-blog{
         width: 100% !important;
     }
+
+    /* posts */
+    .posts-text p{
+        font-size: 18px !important;
+    }
+
+    /* subscribe */
+    .main3{
+        position: relative;
+        bottom: -20px;
+    }
+
+    .sub{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 710px){
@@ -40,6 +56,11 @@
         flex-direction: row;
         flex-wrap: wrap !important;
         padding: 10px !important;
+    }
+
+    .main2-c2{
+        grid-auto-flow: column;
+        flex-wrap: wrap;
     }
 
     .big-img, .text-white{
@@ -79,5 +100,51 @@
 
     .b-text h3{
         font-size: 15px !important;
+    }
+
+    /* post */
+    .posts, .gray, .posts-img{
+        min-width: 100% !important;
+    }
+
+    .posts{
+        padding: 0% !important;
+    }
+
+    .posts-text{
+        margin: 0%;
+    }
+
+    .main2-c2{
+        padding: 20px !important;
+        width: 100% !important;
+    }
+
+    .next-button{
+        width: 100% !important;
+    }
+
+    .posts-button{
+        width: 100%;
+    }
+
+    .posts-btn{
+        height: auto;
+        margin: 0% !important;
+    }
+
+    .latest{
+        text-align: center;
+    }
+
+    /* subscribe */
+    .main3{
+        height: 50vh !important;
+        padding: 20px !important;
+    }
+
+    .main3-c3{
+        padding: 2% !important;
+        height: 30vh !important;
     }
 }
