@@ -43,4 +43,18 @@
     .accordion{
         width: 100%;
     }
+
+    .m1a1{
+        padding: 10px !important;
+    }
+
+    .platforms{
+        padding: 0% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .platforms-t{
+        text-align: center;
+    }
 }
