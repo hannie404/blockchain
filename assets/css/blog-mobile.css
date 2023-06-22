@@ -61,6 +61,7 @@
     .main2-c2{
         grid-auto-flow: column;
         flex-wrap: wrap;
+        margin: 0% !important;
     }
 
     .big-img, .text-white{
