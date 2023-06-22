@@ -310,21 +310,15 @@ img{
 .reasons-text{
     display: flex;
     justify-content: space-between;
-    margin: 100px 200px 0px 200px;
+    padding: 20px;
 }
 
 .why-1{
     color: #29FCEF;
     font-weight: bolder;
-    font-size: 30px;
-    width: 50%;
+    font-size: 3rem;
+    width: auto;
 
-}
-
-.why-2{
-    color: #29FCEF;
-    width: 50%;
-    text-align: end;
 }
 
 .card-p{
@@ -351,7 +345,6 @@ img{
 }
 
 .reasons-cards{
-    margin: 10px 150px 20px 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -392,7 +385,6 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 200px 0px 200px;
 }
 
 .hows-text{
@@ -465,7 +457,6 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 200px 0px 200px;
 }
 
 .currencies{
@@ -581,9 +572,9 @@ hr{
 
 .invest-text h1{
     color: #fff;
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: bold;
-    width: fit-content;
+    width: 100%;
     margin: 0%;
 }
 
@@ -615,10 +606,22 @@ hr{
     margin-right: 10px;
 }
 
+.invest-btn:hover{
+    background-color: #0a0330a2;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
 .invest-btn-learn{
     background-color: #ffffff5f;
     border: 2px solid #fff;
     width: 150px;
+    color: #fff;
+}
+
+.invest-btn-learn:hover{
+    background-color: #0a0330a2;
+    border: 2px solid #fff;
     color: #fff;
 }
 
@@ -627,7 +630,10 @@ hr{
 .news{
     width: 100%;
     height: fit-content;
-    padding: 10% 10% 0% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
 }
 
 .news-1 > h1{

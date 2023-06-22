@@ -206,8 +206,8 @@
     }
 
     .card{
-        width: 400vw;
-        min-width: 300px;
+        /* width: 400vw;
+        min-width: 300px; */
         height: 400px;
         display: flex;
         flex-direction: column;
@@ -245,10 +245,10 @@
         margin: 5%;
     }
 
-    .c-cards{
+    /* .c-cards{
         width: 200vw;
         min-width: 250px !important;
-    }
+    } */
 
     .c-card{
         margin: 0px 30px 0px 30px;
@@ -290,7 +290,7 @@
         justify-content: center !important;
     }
 
-    .invest-text > p{
+    .invest-text > h1, p{
         text-align: center;
     }
 
@@ -312,8 +312,42 @@
         flex-wrap: wrap;
     }
 
-    .browse-btn{
+    .news-1{
+        flex-wrap: wrap;
+        margin: 0% !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .start-more, .learn-more{
+        width: 100% !important;
+    }
+
+    .btn-title{
         width: 100%;
+        flex-direction: column !important;
+    }
+
+    .learn-more{
+        margin: 0% !important;
+        margin-top: 10px !important;
+    }
+
+    .c-cards{
+        width: 200vw;
+        min-width: 250px !important;
+    }
+
+    .news-1{
+        margin: 10px !important;
+    }
+
+    .news{
+        padding: 10px !important;
+    }
+
+    .news-card{
+        margin: 5px !important;
     }
 
     .news-card{
@@ -321,9 +355,18 @@
         width: 100%;
         min-width: 300px;
     }
+    
+    .browse-btn{
+        width: 100%;
+    }
 
-    .news-1{
-        flex-wrap: wrap;
-        margin: 0% !important;
+    .why-1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .reasons-text{
+        margin-top: 50px !important;
+        padding: 0% !important;
     }
 }
