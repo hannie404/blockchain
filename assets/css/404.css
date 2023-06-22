@@ -1,0 +1,89 @@
+@media screen and (max-width: 1100px){
+  .main-1{
+    position: relative;
+    bottom: -20px;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .container-1{
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  .main-1{
+    height: 90vh !important;
+  }
+
+  a, .home-back{
+    width: 100% !important;
+  }
+
+  h1{
+    font-size: 8rem !important;
+  }
+  
+  h2{
+    font-size: 25px !important;
+  }
+  
+  p{
+    font-size: 18px !important;
+  }
+
+
+}
+
+.main-1{
+  background-image: linear-gradient(to top,#29fcee2b,#00041e27), url(../public/container.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1{
+  width: 50%;
+}
+
+h1, h2, p{
+  color: #29FCEF;
+  font-family: sans-serif !important;
+}
+
+h1{
+  font-size: 15rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.go-back{
+  background-color: #29FCEF;
+  color: #012d2a;
+}
+
+.go-back:hover{
+  color: #012d2a;
+  background-color: #f4f4f4;
+}
+
+.go-back::before{
+  color: #012d2a;
+  background-color: #f4f4f4;
+}
+
+a{
+  width: 100%;
+}
