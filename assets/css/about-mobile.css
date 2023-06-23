@@ -139,10 +139,19 @@
     }
 
     .main-4, .main-3{
-        height: 100% !important;
+        /* height: fit-content !important; */
+        width: 100% !important;
+    }
+
+    .main-4{
+        padding-top: 100px;
     }
 
     .center{
         text-align: center !important;
+    }
+
+    .m5a1-img{
+        width: 100% !important;
     }
 }
