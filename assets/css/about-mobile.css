@@ -49,8 +49,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center !important;
-        padding: 20px;
+        padding: 30px;
         flex-wrap: wrap;
+        z-index: 1;
     }
 
     #iphone{
@@ -68,23 +69,24 @@
     }
 
     .invest-text{
+        width: 100% !important;
         margin: 0% !important;
         display: flex;
         justify-content: center !important;
+        align-items: center;
     }
 
-    .invest-text > p{
-        text-align: center;
+    .invest-text > h1, p{
+        text-align: center !important;
     }
 
     .invest-text h1{
         min-width: 20px !important;
-        text-align: center !important;
+        text-align: center !important;    
     }
 
     .invest-btn, .invest-btn-learn{
-        margin: 5px;
-        width: 100%;
+        width: 100% !important;
         height: fit-content;
         font-size: 15px;
     }
@@ -99,6 +101,10 @@
     .invest-btn-learn, .invest-btn{
         width: 100% !important;
         margin-right: 0% !important;
+        }
+
+    .invest-btn{
+        margin-bottom: 10px;
     }
 
     .main-5{

@@ -3,6 +3,10 @@
         width: 100% !important;
     }
 
+    .bi-list{
+        color: aqua;
+    }
+
     .grey{
         margin: 0% !important;
     }
@@ -132,7 +136,7 @@
     }
 
     .posts-btn{
-        height: auto;
+        height: 100% !important;
         margin: 0% !important;
     }
 
