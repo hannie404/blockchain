@@ -212,7 +212,8 @@
     .card{
         /* width: 400vw;
         min-width: 300px; */
-        height: 400px;
+        height: 100%;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -341,7 +342,9 @@
 
     .c-cards{
         width: 200vw;
+        height: fit-content !important;
         min-width: 250px !important;
+        padding-bottom: 15px;
     }
 
     .news-1{
