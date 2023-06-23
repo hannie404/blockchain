@@ -327,13 +327,15 @@ img{
 }
 
 .card-icon{
-    width: 100px;;
+    width: 100px;
+    padding-left: 10px;
 }
 
 .card{
     width: 400px;
     height: 400px;
     display: flex;
+    padding-bottom: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -466,6 +468,7 @@ hr{
     justify-content: center;
     margin-top: 50px;
     width: 100%;
+    padding: 0% 10% 0% 10%;
 }
 
 .c-img{
@@ -699,4 +702,158 @@ hr{
     text-decoration: none;
     color: #29FCEF;
     font-size: 18px;
+}
+
+.main2{
+    width: 100%;
+}
+
+.main2-c2{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.icode-blog > h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    left-margin: 10px;
+}
+
+.news-images{
+    width: 100%;
+    padding-right: 0%;
+}
+
+.news-img{
+    width: 100%;
+    padding: 0%  !important;
+}
+
+.cyan-blog{
+    color: #29FCEF;
+    text-align: start;
+    margin-left: 5%;
+}
+
+input.email-1::placeholder{
+    color: #29FCEF;
+}
+
+input.form-control{
+    background-color: #030a3691;
+    border: 2px solid #29FCEF;
+    height: 50px;
+}
+
+input.form-control[type=search]:focus{
+    background-color: #030a3691;
+    color: aliceblue;
+}
+
+.btn-search{
+    background-color: #29FCEF;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.btn-search:hover{
+    background-color: #030a3691;
+}
+
+.search{
+    display: flex;
+    justify-content: end;
+}
+
+.search-blog{
+    width: 40%;
+}
+
+.bi-search{
+    color: #031f1d;
+}
+
+.bi-search:hover{
+    color: #fff;
+}
+
+.cyan{
+    color: #29FCEF;
+}
+
+.grey{
+    width:fit-content;
+    background-color: #24314f;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.text-wimg{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-img{
+    width: 50%;
+}
+
+.news-text{
+    margin: 30px;
+}
+
+.news-text p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+
+a.news-a{
+    text-decoration: none;
+    color: #29FCEF;
+    font-size: 18px;
+}
+
+.b-text h3{
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.latest h1{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.posts-img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.gray{
+    background-color: #24314f;
+    border-radius: 20px;
+}
+
+.posts-text{
+    margin: 30px;
+}
+
+.posts-text p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+
+.posts-text i{
+    color: #29FCEF;
+}
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: #003ac3;
+    border: 1px solid #ffffff;
 }

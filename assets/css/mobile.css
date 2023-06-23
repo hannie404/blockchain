@@ -258,6 +258,7 @@
 
     .currencies{
         width: 100% !important;
+        padding: 10px !important;
     }
 
     .invest{
@@ -312,13 +313,18 @@
         flex-wrap: wrap;
     }
 
+    .news-2{
+        width: 100% !important;
+        padding: 0% !important;
+    }
+
     .news-1{
         flex-wrap: wrap;
         margin: 0% !important;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 710px){
     .start-more, .learn-more{
         width: 100% !important;
     }
@@ -347,12 +353,12 @@
     }
 
     .news-card{
-        margin: 5px !important;
+        margin: 0% !important;
     }
 
     .news-card{
         margin: 20px 10px;
-        width: 100%;
+        width: 100% !important;
         min-width: 300px;
     }
     
@@ -369,4 +375,29 @@
         margin-top: 50px !important;
         padding: 0% !important;
     }
+
+    .posts-text{
+        padding: 30px !important;
+    }
+
+    .posts-btn{
+        width: 100% !important;
+    }
+
+    .posts-button{
+        padding: 0% !important;
+        margin-bottom: 10px;
+    }
+
+    /* articles */
+    /* .main2-c2{
+        grid-auto-flow: column;
+        flex-wrap: wrap;
+        margin: 0% !important;
+    }
+
+    .main2-c2{
+        padding: 20px !important;
+        width: 100% !important;
+    } */
 }
