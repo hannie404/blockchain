@@ -87,6 +87,11 @@ textarea::before{
     background-color: #29FCEF;
 }
 
+.btn-cyan:hover{
+    background-color: #ffffff3e;
+    border: 2px solid #fff;
+}
+
 .accordion-button{
     color: #fff;
     background-color: #030a36f1 !important;
