@@ -110,6 +110,8 @@
     .main-5{
         width: 100% !important;
         height: fit-content !important;
+        position: relative;
+        bottom: -20px;
     }
 
     .m5a1{
@@ -126,5 +128,17 @@
 
     .m5a1-text{
         margin: 0% !important;
+    }
+
+    p{
+        text-align: start !important;
+    }
+
+    .main4-article{
+        height: fit-content !important;
+    }
+
+    .main-4, .main-3{
+        height: 100% !important;
     }
 }
