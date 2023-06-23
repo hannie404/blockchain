@@ -73,9 +73,9 @@
         padding: 10px;
     }
     .nav > .nav-btn > label:hover{
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(10, 52, 59, 0.689);
         color: #03082b;
-        border: 3px solid #0d6efd;
+        border: 3px solid #29FCEF;
         border-radius: 3px;
         color: #0d6efd;
         padding: 1px 8px 1px 8px;
@@ -88,7 +88,6 @@
         width: 100%;
         padding: 0%;
         margin-top: 15px;
-        background: rgb(10, 24, 51);
         border-radius: 16px;
         height: 10px;
         transition: all 0.3s ease-in;
@@ -98,6 +97,11 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        background: rgba(3, 8, 43, 0.68);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
     }
 
     .nav > .nav-links > ul li a {
@@ -245,11 +249,6 @@
         margin: 5%;
     }
 
-    /* .c-cards{
-        width: 200vw;
-        min-width: 250px !important;
-    } */
-
     .c-card{
         margin: 0px 30px 0px 30px;
         width: 100%;
@@ -302,7 +301,7 @@
 
     .invest-btn, .invest-btn-learn{
         margin: 5px;
-        width: 100%;
+        width: 100% !important;
         height: fit-content;
         font-size: 15px;
     }
@@ -311,6 +310,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        width: 100% !important;
     }
 
     .news-2{

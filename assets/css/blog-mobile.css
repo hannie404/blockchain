@@ -127,6 +127,8 @@
 
     .posts-button{
         width: 100%;
+        display: flex;
+        justify-content: center !important;
     }
 
     .posts-btn{

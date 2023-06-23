@@ -292,9 +292,9 @@ img{
         padding: 10px;
     }
     .nav > .nav-btn > label:hover{
-        background-color: rgb(255, 255, 255);
         color: #03082b;
-        border: 3px solid #0d6efd;
+        background-color: rgba(10, 52, 59, 0.689);
+        border: 3px solid #29FCEF;
         border-radius: 3px;
         color: #0d6efd;
         padding: 1px 8px 1px 8px;
@@ -317,6 +317,11 @@ img{
         display: flex;
         justify-content: center;
         text-align: center;
+        background: rgba(3, 8, 43, 0.68);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);;
     }
 
     .nav > .nav-links > ul li a {
