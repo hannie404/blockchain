@@ -92,6 +92,10 @@ textarea::before{
     border: 2px solid #fff;
 }
 
+.bi{
+    color: #29FCEF;
+}
+
 .accordion-button{
     color: #fff;
     background-color: #030a36f1 !important;

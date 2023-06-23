@@ -141,4 +141,8 @@
     .main-4, .main-3{
         height: 100% !important;
     }
+
+    .center{
+        text-align: center !important;
+    }
 }
