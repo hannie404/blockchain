@@ -1,0 +1,44 @@
+@media screen and (max-width: 1100px){
+  .currencies{
+    padding: 0% !important;
+  }
+
+  p{
+    text-align: start !important;
+  }
+
+  .btn-inv{
+    align-items: start !important;
+  }
+
+  .currencies{
+    padding: 0% !important;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .m1c1-text{
+    width: 100% !important;
+  }
+
+  main1{
+    padding: 10px !important;
+  }
+
+  .main1{
+    padding: 0% !important;
+  }
+
+  .m1c1-text{
+    padding: 0% !important;
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  #img-token{
+    width: 50% !important;
+  }
+
+  input.invest-button{
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,31 @@
+main{
+  padding: 5%;
+}
+
+h1{
+  color: #29FCEF;
+}
+
+p, li{
+  color: #fff;
+}
+
+.m1c2{
+  background: #24314f;
+  padding: 5%;
+  border-radius: 20px;
+}
+
+.invest-button:hover{
+  text-decoration: none !important;
+}
+
+.currencie{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  /* padding: 0% 10% 0% 10%; */
+}

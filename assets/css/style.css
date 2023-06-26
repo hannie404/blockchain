@@ -327,6 +327,7 @@ img{
 }
 
 .card-icon{
+    padding-top: 10px;
     width: 100px;
     padding-left: 10px;
 }
@@ -335,7 +336,7 @@ img{
     width: 400px;
     height: 400px;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
