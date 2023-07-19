@@ -1,13 +1,57 @@
-# blockchain
-This project aims to provide an understanding of the potential of blockchain and NFTs, showcasing the myriad of opportunities they present for innovation, decentralization, and democratization across sectors. By exploring real-world examples and emerging trends, this project seeks to inspire and educate readers.
-
-# Developer
-Front-end Developer : Annie-Neshreen D. Ibrahim
-
 # Blockchain
 <img src="./assets/home page.jpg" alt="home page">
 
-Live link : <a href="https://hannie404.github.io/blockchain/">Click me</a>
+## Live Demo
+
+[![Live Website](https://img.shields.io/badge/Click%20Me-Live%20Website-blue?style=for-the-badge)](https://hannie404.github.io/blockchain/)
+
+
+# E-Wallet Website
+
+Welcome to the E-Wallet Website repository! This website is a crypto e-wallet platform that allows users to learn about cryptocurrencies, invest in them, and participate in live trading. It also provides educational articles to help users understand blockchain technology.
+
+## Features
+- Learn about cryptocurrencies
+- Invest in cryptocurrencies
+- Participate in live trading
+- Educational articles on blockchain technology
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/hannie404/Task-Thoughts.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the website locally:
+```bash
+npm start
+```
+
+## Usage
+To use the website, follow these steps:
+
+1. Visit the live website: [E-Wallet Website](https://hannie404.github.io/blockchain/)
+2. Sign up for an account or log in if you already have one.
+3. Explore the educational articles to learn more about blockchain.
+4. Use the e-wallet to invest in cryptocurrencies and manage your funds.
+5. Participate in live trading to experience real-time crypto trading.
+
+## Contributing
+We welcome contributions from the community. To contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+
+Happy learning and trading with the E-Wallet Website!
+
+
 <!-- 
     I coded this website the day when the mini project was announced.
     Back then, bootstrap wasn't introduced to us yet.
