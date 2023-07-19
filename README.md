@@ -10,6 +10,12 @@
 
 Welcome to the E-Wallet Website repository! This website is a crypto e-wallet platform that allows users to learn about cryptocurrencies, invest in them, and participate in live trading. It also provides educational articles to help users understand blockchain technology.
 
+### Technologies Used
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square)
+
 ## Features
 - Learn about cryptocurrencies
 - Invest in cryptocurrencies
