@@ -22,20 +22,15 @@ Welcome to the E-Wallet Website repository! This website is a crypto e-wallet pl
 - Participate in live trading
 - Educational articles on blockchain technology
 
-## Installation
+## Getting Started
+
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/hannie404/Task-Thoughts.git
 ```
-2. Install dependencies:
-```bash
-npm install
-```
 
-3. Run the website locally:
-```bash
-npm start
-```
+2. Open `index.html` in your web browser to use the website.
 
 ## Usage
 To use the website, follow these steps:
