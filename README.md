@@ -27,7 +27,7 @@ Welcome to the E-Wallet Website repository! This website is a crypto e-wallet pl
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hannie404/Task-Thoughts.git
+git clone https://github.com/hannie404/blockchain.git
 ```
 
 2. Open `index.html` in your web browser to use the website.
